@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Codigo para progmracion A*</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/app.css">
+</head>
+<body>
+    <div id="titulo">
+        <h1>
+           --
+        </h1>
+    </div>
+    <div id="boton">
+        <button onClick="resetearMapa()" id="reset">Resetear mapa</button>
+        <button onClick="limpiarMapa()" id="limpiar">Limpiar mapa</button>
+    </div>
+    
+    <div id="content">
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="./scripts/estrella/a_estrella.js"></script>
+    <script src="./scripts/estrella/vecinos.js"></script>
+    <script src="./scripts/mapaOriginal.js"></script>   
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/update.js"></script>
+    <script src="./scripts/draw.js"></script>
+    <script src="./scripts/teclado.js"></script>
+    <script src="./scripts/apiMovimiento.js"></script>
+</body>
+</html>
